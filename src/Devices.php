@@ -1,5 +1,9 @@
 <?php
 
+namespace Pjanisio\EwelinkApiPhp;
+
+use Exception;
+
 /**
  * Class: ewelinkApiPhp
  * Author: Paweł 'Pavlus' Janisio
@@ -7,11 +11,6 @@
  * Dependencies: PHP 7.4+
  * Description: API connector for Sonoff / ewelink devices
  */
- 
-
-require_once __DIR__ . '/WebSocketClient.php';
-require_once __DIR__ . '/Utils.php';
-require_once __DIR__ . '/Constants.php';
 
 class Devices {
     private $devicesData;

@@ -4,6 +4,9 @@
 
 eWeLink API PHP is a connector for Sonoff / eWeLink devices. This library allows you to interact with your eWeLink-enabled devices from your browser.
 
+## Install by composer
+`composer require pjanisio/ewelink-api-php`
+
 ## Requirements
 
 - PHP 7.4+

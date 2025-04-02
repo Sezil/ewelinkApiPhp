@@ -8,7 +8,10 @@
  * Description: API connector for Sonoff / ewelink devices
  */
 
-require_once __DIR__ . '/autoloader.php';
+use Pjanisio\EwelinkApiPhp\Constants;
+use Pjanisio\EwelinkApiPhp\HttpClient;
+
+require_once __DIR__ . '/vendor/autoload.php';
 
 //Class init
 $http = new HttpClient();

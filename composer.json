@@ -1,0 +1,16 @@
+{
+    "name": "pjanisio/ewelink-api-php",
+    "description": "eWeLink API PHP is a connector for Sonoff / eWeLink devices. This library allows you to interact with your eWeLink-enabled devices from your browser.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pjanisio\\EwelinkApiPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pjanisio"
+        }
+    ]
+}

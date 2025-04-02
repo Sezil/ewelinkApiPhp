@@ -1,5 +1,9 @@
 <?php
 
+namespace Pjanisio\EwelinkApiPhp;
+
+use Exception;
+
 /**
  * Class: ewelinkApiPhp
  * Author: Paweł 'Pavlus' Janisio

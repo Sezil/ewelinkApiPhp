@@ -1,5 +1,7 @@
 <?php
 
+namespace Pjanisio\EwelinkApiPhp;
+
 /**
  * Class: ewelinkApiPhp
  * Author: Paweł 'Pavlus' Janisio
